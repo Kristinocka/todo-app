@@ -11,6 +11,7 @@ body {
   align-items: center;
   align-content: center;
   padding: 40px;
+  font-family: "Verdana", cursive;
 }
 body .app-container {
   width: 100%;
@@ -19,6 +20,29 @@ body .app-container {
   height: 100%;
   display: block;
   background: white;
+  border-radius: 4px;
+  padding: 40px;
+  text-align: center;
+}
+body .app-container h3 {
+  font-family: "Pacifico", cursive;
+  font-size: 32px;
+}
+body .app-container form input {
+  margin: 30px 0;
+  width: 100%;
+  max-width: 420px;
+  border: 2px solid rgba(0, 175, 150, 0.2);
+  border-radius: 4px;
+  padding: 6px 10px;
+}
+body .app-container ul {
+  list-style: none;
+  max-width: 420px;
+  margin: 0 auto 30px;
+  text-align: left;
+  padding: 20px 10px;
+  border: 2px solid rgba(0, 175, 150, 0.2);
   border-radius: 4px;
 }
 
